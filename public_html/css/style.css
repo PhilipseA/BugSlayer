@@ -1,0 +1,112 @@
+html, body{
+    overflow: hidden;
+}
+
+body{
+  background: url('../assets/bugfield.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bugslayer{
+  height: 80px;
+  width: 80px;
+  position:absolute;
+}
+
+.bugPlayer{
+  height: 80px;
+  width: 80px;
+  position:absolute;  
+}
+
+.bug{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+.nullPointer{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+.stackOverflow{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+.http{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+.syntax{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+.variable{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+.first{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+.glitch{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+.missingno{
+  height: 50px;
+  width: 50px;
+  position:absolute;
+}
+
+img{
+    width:100%;
+}
+
+.score{
+  margin: 10px;
+  padding: 10px;
+  float: left;
+}
+
+.scoreBug{
+  margin: 10px;
+  padding: 10px;
+  float: right;
+}
+
+.winnerBugSlayer{
+   width: 300px;
+   margin: auto;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 20px;
+   bottom: 0;
+}
+.winnerBug{
+   width: 300px;
+   margin: auto;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 200px;
+   bottom: 0;
+}
